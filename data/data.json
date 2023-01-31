@@ -3,9 +3,9 @@
         "id": "0",
         "name": "MK3190",
         "hasDiscount": true,
-        "discount": 10,
-        "originalPrice": 1000,
-        "image": "img0.png",
+        "discount": 7,
+        "originalPrice": 3300,
+        "image": "0.png",
         "stars": 3
 
     },
@@ -14,8 +14,8 @@
         "name": "CALVIN KLEIN - CK",
         "hasDiscount": true,
         "discount": 5,
-        "originalPrice": 2500,
-        "image": "img1.png",
+        "originalPrice": 1500,
+        "image": "1.png",
         "stars": 5
     
 
@@ -25,8 +25,8 @@
         "name": "Calvin Klein K3M23V26",
         "hasDiscount": true,
         "discount": 15,
-        "originalPrice": 3500,
-        "image": "img2.png",
+        "originalPrice": 2400,
+        "image": "2.png",
         "stars": 3
     
 
@@ -36,7 +36,7 @@
         "name": "EMPORIO ARMANI",
         "hasDiscount": false,
         "originalPrice": 1590,
-        "image": "img3.png",
+        "image": "3.png",
         "stars": 5
     
 
@@ -46,8 +46,8 @@
         "name": "Emporio Armani ar1452",
         "hasDiscount": true,
         "discount": 10,
-        "originalPrice": 3500,
-        "image": "img5.png",
+        "originalPrice": 2900,
+        "image": "4.png",
         "stars": 4
     
 
