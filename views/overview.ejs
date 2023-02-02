@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel ="stylesheet" href="/index.css" />
+    <link rel ="stylesheet" href="/css/index.css" />
     <title>The Watch Shop</title>
 </head>
 
@@ -18,16 +18,25 @@
 
         <div class="singleWatch">
             <div class="singleWatch_img">
-                <img src="<%IMAGE%>" alt="<%NAME%>" />
+                <img src="/images/<%=watch.image%>" alt="<%=watch.name%>" />
             </div>
 
             <div class="singleWatch_info">
                 <div class="singleWatch_name">
-                    <p><%NAME%></p>
+                    <p><%=watch.name%></p>
                 </div>
                 
                 <div class="singleWatch_price">
-                    <p><%NEWPRICE%></p>
+
+                    <p><% if (watch.hasDiscount){ %>
+                     $<%= watch.originalPrice * (100- watch.discount) / 100 %>
+
+                    <% }else { %>
+                        
+                        $<%= watch.originalPrice%>
+                    <% } %>
+                    
+                    </p>
                 </div>
 
                 <div class="singleWatch_desc">
